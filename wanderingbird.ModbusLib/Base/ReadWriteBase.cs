@@ -29,7 +29,7 @@ namespace wanderingbird.ModbusLib.Base
         public Encoding DefaultStringEncoding { get; set; } = Encoding.ASCII;
 
         #region 抽象方法由子类实现
-        /// <summary> 
+        /// <summary>
         /// 读取一个布尔数组，抽象方法由子类实现
         /// </summary>
         /// <param name="logicAddress"></param>
